@@ -12,6 +12,6 @@ $response = $kernel->handle(
 
 );
 
-echo $response->getContent();
-
 $kernel->terminate($request, $response);
+
+return $response->getContent();
