@@ -14,16 +14,16 @@ Route::get('/produits/{cat}', function ($cat) {
 
     if ($cat == 'hicking') {
         $produits = [
-            ["nom" => "Sac à dos", "prix" => 200, "image" => "sac_do.jfif"],
-            ["nom" => "Tente", "prix" => 300, "image" => "tent.jfif"],
-            ["nom" => "Montre GPS", "prix" => 150, "image" => "watch_gps.jfif"],
+            ["nom" => "Sac à dos", "prix" => 200, "image" => "sac_do.jfif.jpg"],
+            ["nom" => "Tente", "prix" => 300, "image" => "tent.jfif.jpg"],
+            ["nom" => "Montre GPS", "prix" => 150, "image" => "watch_gps.jfif.jpg"],
         ];
     }
     elseif ($cat == 'electromenager') {
         $produits = [
-            ["nom" => "Machine à laver", "prix" => 3000, "image" => "machine_lav.jfif"],
-            ["nom" => "Four", "prix" => 1500, "image" => "four.jfif"],
-            ["nom" => "Micro-onde", "prix" => 1000, "image" => "micro_onde.jfif"],
+            ["nom" => "Machine à laver", "prix" => 3000, "image" => "machine_lav.jfif.jpg"],
+            ["nom" => "Four", "prix" => 1500, "image" => "four.jfif.jpg"],
+            ["nom" => "Micro-onde", "prix" => 1000, "image" => "micro_onde.jfif.jpg"],
         ];
     }
     else {
