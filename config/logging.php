@@ -50,7 +50,7 @@ return [
     'channels' => [
     'stack' => [
         'driver' => 'stack',
-        'channels' => ['single'], // Pour Vercel: utiliser stderr au lieu de single
+        'channels' => ['stderr'],
         'ignore_exceptions' => false,
     ],
 
